@@ -21,11 +21,15 @@ INSTALLATION GITHUB
 
 UTILISATION GITHUB
 
-1- Toujours vérifier si vous êtes à jours (pour pas écraser le travail d'un autre):
+1- Aller dans son dossier
+
+2- git checkout -b (nom de la branche)=> voir s'il y a des bug pour la branch
+
+3- Toujours vérifier si vous êtes à jours (pour pas écraser le travail d'un autre):
 
     git pull (si up to date => c'est bon on peut commencer a modifié nos fichiers)
 
-2- Après les avoir modifié il faut sauvegarder son travail:
+4- Après les avoir modifié il faut sauvegarder son travail:
 
     git status (affiche normalement une alerte en rouge précisant le ou les fichier(s) modifié(s))  #Afficher les modifications
     git add (nomdufichierenrouge)	(si plusieurs fichiers répété la commande)                      #Ajouter des fichiers

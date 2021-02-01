@@ -1,5 +1,3 @@
-function plan() {
-    console.log("je suis le log");
+function Jeupaire() {
+    console.log("je suis le log")
 }
-
-
