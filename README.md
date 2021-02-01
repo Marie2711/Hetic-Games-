@@ -22,6 +22,7 @@ INSTALLATION GITHUB
 UTILISATION GITHUB
 
 1- Toujours vérifier si vous êtes à jours (pour pas écraser le travail d'un autre):
+
     git pull (si up to date => c'est bon on peut commencer a modifié nos fichiers)
 
 2- Après les avoir modifié il faut sauvegarder son travail:
