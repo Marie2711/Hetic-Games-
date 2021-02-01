@@ -8,7 +8,7 @@ INSTALLATION GITHUB
 3- Ouvrir le terminal Git (Git Bash)
 
 4- Accéder au dossier (cd ..):
-    Si votre dossier et sur le bureau faire:
+    Si votre dossier est sur le bureau faire:
     - cd Desktop
     - cd (nom du fichier)
 
