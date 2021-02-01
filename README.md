@@ -28,6 +28,6 @@ UTILISATION GITHUB
 2- Après les avoir modifié il faut sauvegarder son travail:
 
     git status (affiche normalement une alerte en rouge précisant le ou les fichier(s) modifié(s))  #Afficher les modifications
-    git add (nomdufichierenrouge)	(si plusieurs fichiers répété la commande)  #Ajouter des fichiers
-    git commit -m "commentaire..."  (dans commentaires, mettre les raisons) #Qu'est ce qui a été modifié
-    git push	#Envoyez les données
+    git add (nomdufichierenrouge)	(si plusieurs fichiers répété la commande)                      #Ajouter des fichiers
+    git commit -m "commentaire..."  (dans commentaires, mettre les raisons)                         #Qu'est ce qui a été modifié
+    git push	                                                                                    #Envoyez les données
