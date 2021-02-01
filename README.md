@@ -9,7 +9,9 @@ INSTALLATION GITHUB
 
 4- Accéder au dossier (cd ..):
     Si votre dossier est sur le bureau faire:
+    
     - cd Desktop
+    
     - cd (nom du fichier)
 
 5- Intégrer le contenu de git dans votre dossier avec la commande (mettre ce lien):
