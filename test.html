@@ -1,14 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div {
+            height: 50px;
+            background: #000;
+        }
+        #topleft {
+            position: absolute;
+            height: 250px;
+            width: 250px;
+            border-radius: 250px 0 0 0;
+            -moz-border-radius: 250px 0 0 0;
+            -webkit-border-radius: 250px 0 0 0;
+            background: #14ec1f;
+            top: 50%;
+            left: 50%;
+            margin: -250px 0px 0px -250px;
+            border-style: solid;
+            border-width: 10px;
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+        }
+            .vert {
+  background-color: green;
+} 
+    </style>
+</head>
 <body>
-
-<h2 class="carte">A heading with class="carte"</h2>
-<p class="carte" onclick="swapimage()">Clique ici ta race</p> 
-
-<p>Click the button to add a background color to the first element in the document with class="example".</p>
-
-<button class="example" onclick="swapimage()">Try it</button>
-
-<script type="text/javascript" src="main.js"></script>
+    <div id="topleft"></div>
+    <script>
+        var go = document.getElementById('start');
+        var vert = document.getElementById('topleft');
+        go.addEventListener('click',function() {
+            vert.classList.add( "vert" );
+        });
+        let caseverte = document.getElementById('topleft');
+        caseverte.addEventListener('click',function( e ) {
+            e.target.style.backgroundColor = 'white';
+        });
+    </script>
 </body>
 </html>

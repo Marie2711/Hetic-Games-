@@ -1,9 +1,9 @@
 <script>
     // let monp = document.querySelector( "#monp" );
 	let monp = document.getElementById( "monp" );
-	console.dir( monp );
+	console.dir(monp);
 
-	console.log( monp.innerHTML );
+	console.log(monp.innerHTML);
 
 	// Modification de HTML
 	monp.innerHTML += "Je suis un test";
