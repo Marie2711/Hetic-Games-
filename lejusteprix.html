@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <meta charset="utf-8"> 
+    <title>LE JUSTE PRIX</title> 
+  
+    <style> 
+        html { 
+    font-family: Arial; 
+    } 
+      
+        body { 
+    width: 50%; 
+    max-width: 800px; 
+    min-width: 480px; 
+    } 
+
+    </style> 
+</head> 
+<body> 
+    <h1>BIENVENUE DANS LE JUSTE PRIX</h1> 
+  
+    <p>Le prix se situe entre entre 1 et 100€</p> 
+  
+    <div class="form"> 
+        <label for="guessField">Alors à votre avis? </label> 
+        <input type = "text" id = "proposition" class = "guessField"> €
+        <input type = "submit" id = "submitguess" class = "guessSubmit" value = "Envoyer"> 
+    </div> 
+  
+    <script type = "text/javascript"> 
+        // Random un chiffre entre 1 et 100
+        var solution = Math.floor(Math.random() * 100 + 1);   
+        // boucle qui compte le nombre total d'essai
+        var nbessai = 1; 
+        document.getElementById("submitguess").onclick = function(){ 
+        // Input/proposition du joueur      
+        var proposition = document.getElementById("proposition").value; 
+        // Resultat : + ou -
+        if(proposition == solution) 
+        {     
+            alert("Bravo! Vous l'avez trouvé en seulement " + nbessai + " fois"); 
+        } 
+        else if(proposition > solution)
+
+        {     
+            nbessai++ 
+            alert("Non plus petit!"); 
+        } 
+        else
+        { 
+            nbessai++; 
+            alert("Non plus grand!") 
+        } 
+} 
+    </script> 
+</body> 
+</html>
