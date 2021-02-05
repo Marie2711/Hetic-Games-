@@ -4,13 +4,21 @@
          Author: Hirep Noham
     -------------------------------
 */
-body {
-    background-color: blanchedalmond;
+html {
+    height: 100%;
+
 }
+
+body {
+    background: rgb(132, 208, 251);
+    background: linear-gradient(180deg, rgba(132, 208, 251, 1) 0%, rgba(255, 255, 255, 0.7567401960784313) 100%);
+}
+
+
 
 #container {
     background-color: #FFF;
-    height: 700px;
+    height: 600px;
     width: 600px;
     position: absolute;
     top: 50%;
@@ -18,21 +26,15 @@ body {
     transform: translate(-50%, -50%);
 }
 
-#header {
-    height: 100px;
-    background-color: blanchedalmond;
-    position: relative;
-
-}
 
 
 
 #Btn-color {
     margin: 0;
     position: absolute;
-    top: 50%;
-    left: 300px;
-    transform: translateY(-50%);
+    top: 50px;
+    left: 56%;
+
 
 }
 
@@ -69,8 +71,9 @@ body {
 h2 {
     font-size: 50px;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    position: absolute;
+    top: 50px;
+    left: 33%;
 
 }
 
@@ -84,4 +87,52 @@ article {
 
 article>p {
     font-size: 25px;
+}
+
+#PixelImg {
+    position: absolute;
+    top: 75px;
+    left: 20px;
+}
+
+#PixelCoeur {
+    position: relative;
+    top: 565px;
+    left: 1193px;
+}
+
+#Pixeléclaire {
+    position: relative;
+    top: 400px;
+    left: 1058px;
+}
+
+#PixelParaPluit {
+    position: relative;
+    top: 235px;
+    left: 923px;
+}
+
+#PixelSoleil {
+    position: relative;
+    top: 70px;
+    left: 788px;
+}
+
+#Footer {
+    position: absolute;
+    bottom: 0px;
+    z-index: -1;
+}
+
+#cloud {
+    position: relative;
+    left: 230px;
+    z-index: -1;
+}
+
+#logoSnake {
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }
