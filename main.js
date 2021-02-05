@@ -5,6 +5,7 @@
     -------------------------------
 */
 
+
 //function to generate div
 let grid = document.querySelector('#Grid');
 var i = 0
