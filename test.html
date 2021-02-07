@@ -1,47 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <style>
-        div {
-            height: 50px;
-            background: #000;
-        }
-        #topleft {
-            position: absolute;
-            height: 250px;
-            width: 250px;
-            border-radius: 250px 0 0 0;
-            -moz-border-radius: 250px 0 0 0;
-            -webkit-border-radius: 250px 0 0 0;
-            background: #14ec1f;
-            top: 50%;
-            left: 50%;
-            margin: -250px 0px 0px -250px;
-            border-style: solid;
-            border-width: 10px;
-            box-sizing: border-box;
-            -moz-box-sizing: border-box;
-            -webkit-box-sizing: border-box;
-        }
-            .vert {
-  background-color: green;
-} 
-    </style>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
 </head>
 <body>
-    <div id="topleft"></div>
-    <script>
-        var go = document.getElementById('start');
-        var vert = document.getElementById('topleft');
-        go.addEventListener('click',function() {
-            vert.classList.add( "vert" );
-        });
-        let caseverte = document.getElementById('topleft');
-        caseverte.addEventListener('click',function( e ) {
-            e.target.style.backgroundColor = 'white';
-        });
-    </script>
+	
 </body>
 </html>
