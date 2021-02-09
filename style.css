@@ -1,0 +1,102 @@
+/*
+   
+    -------------------------------
+         Author: Hirep Noham
+    -------------------------------
+*/
+html {
+    height: 100%;
+
+}
+
+body {
+    background: rgb(132, 208, 251);
+    background: linear-gradient(180deg, rgba(132, 208, 251, 1) 0%, rgba(255, 255, 255, 0.7567401960784313) 100%);
+}
+
+/* Title of the game */
+
+h2 {
+    font-size: 50px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+/* Rules of the game  */
+article {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 300px;
+
+}
+
+article>p {
+    font-size: 25px;
+}
+
+
+/* Head of the Robot  */
+#head {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Number of click */
+#click {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 50px;
+
+}
+
+/* Btn click */
+#Btn {
+    position: absolute;
+    background-color: #C4C4C4;
+    width: 235px;
+    height: 100px;
+    border-radius: 50px;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+#PlusIcon {
+    position: absolute;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+
+}
+
+/*  change color of the  Btn click*/
+#Btn:active {
+
+    background: #989898;
+
+
+}
+
+#logoSnake {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+/* grass with flower */
+#Footer {
+    position: absolute;
+    bottom: 0px;
+    z-index: -1;
+}
