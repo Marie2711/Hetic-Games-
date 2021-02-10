@@ -29,8 +29,10 @@ h3 {
 }
 
 /* CARDS */
-/* before / after */
-/* canvas */
+/* TODO :
++ animation retourne carte 
++ retourner carte au premier clique
+*/
 
 #memorygame {
     display: grid;
@@ -48,13 +50,7 @@ h3 {
 
 
 img {
-    width: 200px;
-    height: 280px;
+    width: 160px;
+    height: 200px;
 }
 
-.off {
-    
-}
-
-.on {
-}

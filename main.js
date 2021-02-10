@@ -1,3 +1,9 @@
+// TODO
+// Lors du premier clique retourner la carte 
+// réduire la taille pour que lorsqu'on joue pas besoin de scroll
+// CSS
+
+
 var myanimals = ["img/ecureuil.png","img/ecureuil.png","img/elephant.png","img/elephant.png","img/escargot.png","img/escargot.png","img/hiboux.png","img/hiboux.png","img/mouton.png","img/mouton.png","img/singe.png","img/singe.png"]
 
 var allanimals = []
