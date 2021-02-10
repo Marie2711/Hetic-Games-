@@ -1,0 +1,116 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <meta charset="utf-8"> 
+    <title>LE JUSTE PRIX</title> 
+  
+    <style> 
+        html { 
+    font-family: Andale Mono, monospace;
+    background-color: #D6F4FF;
+    } 
+
+        h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 2em;
+        }
+
+        p {
+    color: white;
+    text-align: center;
+    margin-bottom: 10em;
+    font-size: 1.5em;
+    text-shadow: black 1px 0 10px;
+    }
+
+    
+        .reponse {
+    text-align: center;
+    margin-bottom: 6em;
+        }
+
+        .ordinateur {
+    color: white;
+    text-align: center;
+    margin-bottom: 2em;
+    font-size: 1.5em;
+    text-shadow: black 1px 0 10px;
+    }
+
+    button {
+    text-align: center;
+    }
+    </style> 
+</head> 
+<body> 
+    <h1>LE JUSTE PRIX</h1> 
+
+    <p>Le prix se situe entre entre 1 et 100€</p> 
+  
+    <div class="ordinateur"> 
+        <label for ="proposition">Cliquer sur "Essayes!" pour que le robot te soumette un chiffre </label>
+    </div>
+
+    <button onclick="Random100()">Essayes!</button>
+
+    <p id="affichenb" var="affiche"></p>
+
+    <div class="reponse"> 
+            <label for="answer">C'est le nombre que vous avez choisi ?</label>
+                <button onclick="PlusPetit()">Plus petit!</button>
+                <button onclick="PlusGrand()">Plus grand!</button>
+                <button onclick="Exact()">Exact!</button>
+        </select>
+        </div> 
+
+
+  
+    <script type = "text/javascript"> 
+
+        // Random qui génère un nombre
+        function random(min, max) {
+            return min + Math.random() * (max - min);
+        }
+
+        function Random100() {
+            document.getElementById("affichenb").innerHTML = Math.floor(random(1, 100));;
+        }   
+
+        function PlusGrand() {
+            document.getElementById("affichenb").innerHTML = Math.floor(random(1, random));;
+        }
+
+        function PlusPetit() {
+            document.getElementById("affichenb").innerHTML = Math.floor(random(1, random));;
+        }
+
+        function Exact() {
+            alert("Bravo!")
+        }
+
+        // boucle qui compte le nombre total d'essai
+        var nbessai = 1; 
+        document.getElementById("submitguess").onclick = function(){ 
+        // Input/proposition du joueur      
+        var proposition = document.getElementById("proposition").value; 
+        // Resultat : + ou -
+        if(proposition == solution) 
+        {     
+            alert("Bravo! L'ordinateur l'a trouvé en seulement " + nbessai + " fois"); 
+        } 
+        else if(proposition > solution)
+
+        {     
+            nbessai++ 
+            alert("Non plus petit!"); 
+        } 
+        else
+        { 
+            nbessai++; 
+            alert("Non plus grand!") 
+        } 
+} 
+    </script> 
+</body> 
+</html>
