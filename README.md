@@ -1,33 +1,16 @@
-INSTALLATION GITHUB
+# PixelDrawer 
 
-1- Installer Github :
-    https://git-scm.com/download/win
+Pixel Drawer is a game when you can draw in your navigator with a pixel grid.
+If you want try Pixel drawer you can  on this link
 
-2- Crée un dossier sur votre bureau afin de le connecter au Github
+[![Netlify Status](https://api.netlify.com/api/v1/badges/02e1925d-34c6-41d6-a9da-3be650d62b50/deploy-status)](https://app.netlify.com/sites/pixel-drawer/deploys)
 
-3- Ouvrir le terminal Git (Git Bash)
+https://pixel-drawer.netlify.app
 
-4- Accéder au dossier (cd ..):
-    Si votre dossier est sur le bureau faire:
+or you can download him in your computer if you are already github on your computer 
     
-    - cd Desktop
+    git clone https://github.com/Noh4m/PixelDrawer
     
-    - cd (nom du fichier)
-
-5- Intégrer le contenu de git dans votre dossier avec la commande (mettre ce lien):
-
-    git clone https://github.com/Marie2711/projet-de-ouf-malade
-
-
-UTILISATION GITHUB
-
-1- Toujours vérifier si vous êtes à jours (pour pas écraser le travail d'un autre):
-
-    git pull (si up to date => c'est bon on peut commencer a modifié nos fichiers)
-
-2- Après les avoir modifié il faut sauvegarder son travail:
-
-    git status (affiche normalement une alerte en rouge précisant le ou les fichier(s) modifié(s))  #Afficher les modifications
-    git add (nomdufichierenrouge)	(si plusieurs fichiers répété la commande)                      #Ajouter des fichiers
-    git commit -m "commentaire..."  (dans commentaires, mettre les raisons)                         #Qu'est ce qui a été modifié
-    git push	                                                                                #Envoyez les données
+If you don't have Github you can follow the instruction on this site for download him
+   
+   https://git-scm.com/download/win
