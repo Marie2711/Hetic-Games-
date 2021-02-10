@@ -1,21 +1,60 @@
+html {
+    height: 100%;
+
+}
+
 body {
-    background-color: bisque;
+    background: rgb(132, 208, 251);
+    background: linear-gradient(180deg, rgba(132, 208, 251, 1) 0%, rgba(255, 255, 255, 0.7567401960784313) 100%);
+    background-repeat: no-repeat;
 }
 
-section.jeudespaires {
+#container {
+    background-color: #FFF;
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1,h2,h3 {
+    text-align: center;
+}
+
+h3 {
+    position: relative;
+    height: 50px;
+}
+
+/* CARDS */
+/* before / after */
+/* canvas */
+
+#memorygame {
     display: grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
     grid-template-columns: repeat(4, 1fr);
+    background-color: transparent;
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-75%, -50%);
 }
-.carte {
-    width: 200px;
-    height: 300px;
 
-}
+
 img {
     width: 200px;
-    height: 300px;
+    height: 280px;
 }
 
-h1,h2 {
-    text-align: center;
+.off {
+    
+}
+
+.on {
 }
