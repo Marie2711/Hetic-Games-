@@ -67,50 +67,32 @@
 
   
     <script type = "text/javascript"> 
+        // boucle qui compte le nombre total d'essai
+        var nbessai = 1; 
 
         // Random qui génère un nombre
         function random(min, max) {
             return min + Math.random() * (max - min);
         }
-
+        // Bouton random "Essayes"
+        nbessai++
         function Random100() {
             document.getElementById("affichenb").innerHTML = Math.floor(random(1, 100));;
         }   
-
+        // Bouton PlusGrand
+        nbessai++
         function PlusGrand() {
-            document.getElementById("affichenb").innerHTML = Math.floor(random(1, random));;
+            document.getElementById("affichenb").innerHTML = Math.floor(random(1, 100));;
         }
-
+        // Bouton PlusPetit
+        nbessai++
         function PlusPetit() {
-            document.getElementById("affichenb").innerHTML = Math.floor(random(1, random));;
+            document.getElementById("affichenb").innerHTML = Math.floor(random(1, 100));;
         }
-
+        // Bouton Exact
         function Exact() {
-            alert("Bravo!")
+            alert("Bravo! L'ordinateur l'a trouvé en " + nbessai + " fois");
         }
-
-        // boucle qui compte le nombre total d'essai
-        var nbessai = 1; 
-        document.getElementById("submitguess").onclick = function(){ 
-        // Input/proposition du joueur      
-        var proposition = document.getElementById("proposition").value; 
-        // Resultat : + ou -
-        if(proposition == solution) 
-        {     
-            alert("Bravo! L'ordinateur l'a trouvé en seulement " + nbessai + " fois"); 
-        } 
-        else if(proposition > solution)
-
-        {     
-            nbessai++ 
-            alert("Non plus petit!"); 
-        } 
-        else
-        { 
-            nbessai++; 
-            alert("Non plus grand!") 
-        } 
-} 
     </script> 
 </body> 
 </html>
