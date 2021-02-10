@@ -12,14 +12,14 @@
 
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
-    <title>Pixel Drawer</title>
+    <title>Tally Click Counter</title>
 </head>
 
 <body>
     <div id="Background">
-        
+
         <article>
-            <p>Cliquez sur le bouton autant de fois que vous le souhaitez puis recommencer.</p>
+            <p>Cliquez sur le bouton autant de fois que vous  le souhaitez sur le bouton avec un plus, puis  cliquez sur le bouton recommencer mettre a zéro le conteur de clic fait.</p>
         </article>
         <!--Logo of the site -->
         <figure>
@@ -27,25 +27,23 @@
         </figure>
 
         <h2>Tally click counter</h2>
-        
+
         <p id="click">0</p>
         <div id="head">
-            <div onClick="onClick()" id="Btn">       
-                <p id="PlusIcon">+</p>
+            <img src="./img/HeadRobot.svg" alt="headRobot">
+            <div onClick="onClick()" id="Btn">
+                <img src="./img/PlusIcon.svg" alt="PlusIcon" id="PlusIcon">
             </div>
-        <img src="./img/HeadRobot.svg" alt="headRobot" >
-
         </div>
-        <img id="Wave" src="./img/Wave.svg" alt="décors vert">
+
+        <div onClick="reset()" id="reset">
+            <img src="./img/Reset.svg" alt="resetIcon" id="RIcon">
+            
+        </div>
+        <figure id="Footer">
+            <img src="./img/wave.svg" alt="waveimg">
+        </figure>
     </div>
-
-    <div onClick="onClick" id="Reset">
-        <p>Recommencer</p>
-    </div>
-
-    <a href=""><img src="./img/RobotLeft.svg" alt="robot arrondi" id="Robotleft"></a>
-    <a href=""><img src="./img/RobotRight.svg" alt="robot carré" id="Robotright"></a>
-
     <script src="./main.js"></script>
 </body>
 
