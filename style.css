@@ -19,13 +19,18 @@ body {
     transform: translate(-50%, -50%);
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
+    position: relative;
     text-align: center;
+    top: 5px;
 }
 
 h3 {
     position: relative;
     height: 50px;
+    top: -10px;
 }
 
 /* CARDS */
@@ -45,12 +50,30 @@ h3 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-75%, -50%);
+    transform: translate(-66%, -50%);
 }
 
 
-img {
+.Card {
     width: 160px;
     height: 200px;
 }
 
+#Footer {
+    position: absolute;
+    bottom: -20px;
+    left: -40px;
+    z-index: -1;
+}
+
+#logoSnake {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#cloud {
+    position: relative;
+    left: 230px;
+    z-index: -1;
+}
