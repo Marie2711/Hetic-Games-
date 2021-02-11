@@ -1,0 +1,50 @@
+<!--
+    -------------------------------
+         Author: Hirep Noham
+    -------------------------------
+-->
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tally Click Counter</title>
+</head>
+
+<body>
+    <div id="Background">
+
+        <article>
+            <p>Cliquez sur le bouton autant de fois que vous  le souhaitez sur le bouton avec un plus, puis  cliquez sur le bouton recommencer mettre a zéro le conteur de clic fait.</p>
+        </article>
+        <!--Logo of the site -->
+        <figure>
+            <a href=""><img src="./img/LogoSnake.svg" alt="logoSnake" id="logoSnake"></a>
+        </figure>
+
+        <h2>Tally click counter</h2>
+
+        <p id="click">0</p>
+        <div id="head">
+            <img src="./img/HeadRobot.svg" alt="headRobot">
+            <div onClick="onClick()" id="Btn">
+                <img src="./img/PlusIcon.svg" alt="PlusIcon" id="PlusIcon">
+            </div>
+        </div>
+
+        <div onClick="reset()" id="reset">
+            <img src="./img/Reset.svg" alt="resetIcon" id="RIcon">
+            
+        </div>
+        <figure id="Footer">
+            <img src="./img/wave.svg" alt="waveimg">
+        </figure>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
