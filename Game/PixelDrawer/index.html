@@ -1,0 +1,56 @@
+<!--
+    -------------------------------
+         Author: Hirep Noham
+    -------------------------------
+-->
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Hetic Game / Pixel Drawer</title>
+</head>
+
+<body>
+    <div id="Background">
+        <article>
+            <p>Le but du Pixel Drawer est de laisser parler votre créativité en cliquant sur les pixel blanc.</p>
+        </article>
+        <!--Logo of the site -->
+        <figure>
+            <a href="../../main.html"><img src="./img/LogoSnake.svg" alt="logoSnake" id="logoSnake"></a>
+        </figure>
+
+        <h2>Pixel drawer</h2>
+        <section id="test">
+            <!--Button for reset -->
+            <button id="remove" class="Btn">Clear Color</button>
+             <!--Button for select color -->
+            <form>
+                <input type="color" id="Button" name="btn-color">
+            </form>
+        </section>
+
+         <!--Example of pixel draw -->
+        <figure id="PixelImg">
+            <img src="./img/Coeur.svg" alt="PixelCoeur" id="PixelCoeur">
+            <img src="./img/Eclaire.svg" alt="Pixeléclaire" id="Pixeléclaire">
+            <img src="./img/ParaPluit.svg" alt="PixelParaPluit" id="PixelParaPluit">
+            <img src="./img/Soleil.svg" alt="PixelSoleil" id="PixelSoleil">
+            <img src="./img/Cloud.svg" alt="cloud" id="cloud">
+        </figure>
+        <section id="container">
+            <div id="Grid"></div>
+        </section>
+        <figure id="Footer">
+            <img src="./img/wave.svg" alt="waveimg">
+        </figure>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
