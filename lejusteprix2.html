@@ -3,47 +3,14 @@
 <head> 
     <meta charset="utf-8"> 
     <title>LE JUSTE PRIX</title> 
-  
-    <style> 
-        html { 
-    font-family: Andale Mono, monospace;
-    background-color: #D6F4FF;
-    } 
-
-        h1 {
-    text-align: center;
-    font-size: 3.5rem;
-    margin-bottom: 2em;
-        }
-
-        p {
-    color: white;
-    text-align: center;
-    margin-bottom: 10em;
-    font-size: 1.5em;
-    text-shadow: black 1px 0 10px;
-    }
-
-    
-        .reponse {
-    text-align: center;
-    margin-bottom: 6em;
-        }
-
-        .ordinateur {
-    color: white;
-    text-align: center;
-    margin-bottom: 2em;
-    font-size: 1.5em;
-    text-shadow: black 1px 0 10px;
-    }
-
-    button {
-    text-align: center;
-    }
-    </style> 
+    <link rel="stylesheet" href="style2.css">
 </head> 
 <body> 
+    <!--Logo of the site -->
+        <figure>
+            <a href=""><img src="./img/LogoSnake.svg" alt="logoSnake" id="logoSnake"></a>
+        </figure>
+        <img src="./img/Cloud.svg" alt="cloud" id="cloud">
     <h1>LE JUSTE PRIX</h1> 
 
     <p id="manche">Le prix se situe entre entre 1 et 100€</p> 
@@ -60,7 +27,9 @@
             <button onclick="PlusGrand()">Non plus grand!</button>
             <button onclick="Exact()">Exact!</button>
     </div>
-
+    <figure id="Footer">
+            <img src="./img/wave.svg" alt="waveimg">
+        </figure>
     <script type = "text/javascript"> 
         // boucle qui compte le nombre total d'essai
 
