@@ -48,7 +48,6 @@ function random(min,max) {
 }
 
 function generate() {
-  console.log(document.querySelector("#carte1"))
   for (let i = (myanimals.length-1); i >= 0; i--) {
       var alea = random(0,i)
       document.getElementById("carte"+[i]).src = myanimals[alea]
