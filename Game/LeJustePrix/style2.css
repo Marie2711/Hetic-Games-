@@ -1,0 +1,66 @@
+body {
+    background: rgb(132, 208, 251);
+    background: linear-gradient(180deg, rgba(132, 208, 251, 1) 0%, rgba(255, 255, 255, 0.7567401960784313) 100%);
+    Background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 2em;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 5em;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+
+.reponse {
+    text-align: center;
+    margin-bottom: 6em;
+}
+
+.ordinateur {
+
+    text-align: center;
+    margin-bottom: 1.5em;
+    font-size: 1.5em;
+
+}
+
+button {
+    text-align: center;
+    background: #079661;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 21px;
+    border: none;
+    margin-left: 10px;
+    line-height: 20px;
+    color: #FFF;
+
+}
+
+button:hover {
+    background: #055c3c;
+}
+
+#Footer {
+    position: absolute;
+    bottom: -20px;
+    left: -40px;
+    z-index: -1;
+}
+
+#cloud {
+    position: absolute;
+    top: 100px;
+    left: 230px;
+    z-index: -1;
+}
+
+#logoSnake {
+    position: absolute;
+    top: 20px;

@@ -1,0 +1,124 @@
+/* acceuil */
+#acceuil {
+  background-image: url("../img/fondEcran1.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 200px;
+  margin-left: 20%;
+
+}
+
+#acceuil p {
+  font-family: 'Cousine', Courier, monospace;
+  font-size: 20px;
+  color: #88FFD3;
+  margin-left: -120px;
+}
+
+#acceuil a {
+  display: inline-block;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  background-color: #26E8A1;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px black;
+  margin-left: 16%;
+  margin-top: 50px;
+  padding: 50px;
+
+}
+
+/*  MAIN */
+
+
+body {
+  background-image: url("../img/linear.svg");
+  background-size: cover;
+}
+
+#logo img {
+  padding: 30px;
+}
+
+#menu {
+  width: 200px;
+  height: 200px;
+  background-color: #FFDE46;
+  border-radius: 200px;
+  display: inline-block;
+  margin-left: 80%;
+  margin-top: -160px;
+  padding-left: 80px;
+  padding-top: 80px;
+}
+
+#menu li {
+  list-style-type: none;
+  list-style-position: inside;
+  background-color: #fad841;
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  padding-top: 40px;
+  padding-left: 40px;
+
+}
+
+#menu i {
+  color: black;
+}
+
+#menu li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.item {
+  position: absolute;
+}
+
+#cloud img {
+  display: inline-block;
+  margin-top: -300px;
+  margin-left: 400px;
+}
+
+#hetic {
+  position: absolute;
+  top: 60px;
+  left: 400px;
+}
+
+#game {
+  position: absolute;
+  top: 150px;
+  left: 900px;
+}
+
+#head {
+  text-align: center;
+}
+
+#head img {
+  margin: 0 50px;
+}
+
+#empty {
+  padding: 100px 0;
+}
+
+
+#shop {
+  position: absolute;
+  margin-right: -150px;
+  bottom: 0px;
+  left: 75%;
+
+
+}
+
+footer img {
+  display: block;
+  width: 100%;
+}
