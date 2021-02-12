@@ -1,10 +1,10 @@
 html {
     height: 100%;
+    overflow-y: hidden;
 
 }
 
 body {
-    font-family: 'Cousine', Courier, monospace;
     background: rgb(132, 208, 251);
     background: linear-gradient(180deg, rgba(132, 208, 251, 1) 0%, rgba(255, 255, 255, 0.7567401960784313) 100%);
     background-repeat: no-repeat;
@@ -20,9 +20,12 @@ body {
     transform: translate(-50%, -50%);
 }
 
-h1,
-h2,
-h3 {
+h1 {
+    font-size: 2.5em;
+    color: white;
+}
+
+h1,h2,h3 {
     position: relative;
     text-align: center;
     top: 5px;
@@ -33,12 +36,6 @@ h3 {
     height: 50px;
     top: -10px;
 }
-
-/* CARDS */
-/* TODO :
-+ animation retourne carte 
-+ retourner carte au premier clique
-*/
 
 #memorygame {
     display: grid;
@@ -51,13 +48,23 @@ h3 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-66%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 
 .Card {
-    width: 160px;
-    height: 200px;
+    width: 120px;
+    height: 150px;
+}
+
+.Card.off {
+    width: 120px;
+    height: 150px;
+}
+
+.Card.on {
+    width: 120px;
+    height: 150px;
 }
 
 #Footer {
@@ -77,4 +84,57 @@ h3 {
     position: relative;
     left: 230px;
     z-index: -1;
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.7em;
+}
+
+#rules {
+    width: 500px;
+    font-size: 1.2em;
+    margin-left: 25px;
+}
+
+#go {
+    margin-left: 10%;
+    padding: 0.5em;
+    background: #079661;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 21px;
+    border: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFF;
+}
+
+#go:hover {
+    background: #055c3c;
+    cursor: pointer;
+}
+
+#lose {
+    position: absolute;
+    text-align: center;
+    font-size: 2em;
+    color: red;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#win {
+    position: absolute;
+    text-align: center;
+    font-size: 2em;
+    color:#079661;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#time {
+    margin-left: 10%;
+    font-size: 1.5em;
 }

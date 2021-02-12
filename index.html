@@ -3,19 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hetic Game / Jeu Des Paires</title>
+    <title>HETIC GAMES</title>
     <link rel="stylesheet" href="style.css">
-    <script src="main.js" ></script>
+    <script src="main.js"></script>
     <link rel="shortcut icon" href="./img/LogoSnake.svg">
 </head>
 <body>
     <figure>
-            
-            <a href=""><img src="./img/LogoSnake.svg" alt="logoSnake" id="logoSnake"></a>
-        </figure>
+        <a href=""><img src="./img/LogoSnake.svg" alt="logoSnake" id="logoSnake"></a>
+    </figure>
     <h1>Jeu des paires</h1>
     <h2>Score : <span id="score">0</span></h2>
     <h3 id="tips"></h3>
+    <section id="rules">
+        <button id="go" onclick="go()">Lancer la partie</button>
+        <span id="time"><strong><span id="timer">45</span> s</strong></span>
+        <h4>Comment jouer ?</h3>
+        <p>
+            Les cartes sont retournées face cachées, afin de gagner la partie vous disposez de 45 secondes pour débusquer toutes les cartes ! <br><br>
+            Pour cela, retournez une carte puis une deuxième : <br>
+             - si les cartes sont identiques elles sont retiré du jeu <br>
+             - si les cartes sont différentes elles se retournent et reste dans le jeu au même endroit <br><br>
+            <strong>Lorsque le jeu ne contient plus de carte ou que le temps s'est écoulé la partie est terminée.</strong>
+        </p>
+    </section>
     <section id="memorygame">
         <!-- carte 0 -->
         <div class="carte">
@@ -76,12 +87,11 @@
         <div class="carte">
             <img id="carte11" onclick="compar('carte11',myanimals[11])" src="img/thecartefacecache.png" style='cursor:pointer' class="Card">
         </div>
-    
     </section>
     <img src="./img/Cloud.svg" alt="cloud" id="cloud">
     <figure id="Footer">
-            <img src="./img/wave.svg" alt="waveimg">
-        </figure>
+        <img src="./img/wave.svg" alt="waveimg">
+    </figure>
     <script>generate()</script>
 </body>
 </html>
