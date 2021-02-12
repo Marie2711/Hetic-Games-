@@ -1,3 +1,5 @@
+
+
 var decalage = 0;
 var nbBout;	  
 var timer;
@@ -80,4 +82,19 @@ function suitsouris(evenement)
                 var x =  evenement.pageX;
         }
         document.getElementById("image_suit_souris").style.left = (x)+'px';
+    }
+
+
+
+function changeImage1() {
+
+        if (document.getElementById("nathan").src == "img/nathan.svg") 
+        {
+            document.getElementById("nathan").src = "img/nathan1.svg";
+            console.log("blabla")
+        }
+        else 
+        {
+            document.getElementById("nathan").src = "img/nathan.svg";
+        }
     }
