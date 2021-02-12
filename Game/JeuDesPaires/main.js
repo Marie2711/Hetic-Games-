@@ -19,7 +19,6 @@ function go() {
     else {
       timer = 0
       document.getElementById("timer").innerHTML = timer
-      console.log("timer :",timer)
       document.querySelector("#memorygame").id="lose"
       document.querySelector("#lose").innerHTML="<h2>Manque de temps tu as perdu...</h2>"
       document.querySelector("#lose").innerHTML+="<a id='go' href='index.html'>Recommencer</a>"
@@ -48,7 +47,6 @@ function random(min,max) {
 }
 
 function generate() {
-  console.log(document.querySelector("#carte1"))
   for (let i = (myanimals.length-1); i >= 0; i--) {
       var alea = random(0,i)
       document.getElementById("carte"+[i]).src = myanimals[alea]
@@ -59,7 +57,6 @@ function generate() {
   allanimals.reverse()
   myanimals = allanimals
   allanimals = null
-  console.log(myanimals)
   for (let i = (myanimals.length-1); i >= 0; i--) {
     document.getElementById("carte"+[i]).src = "img/thecartefacecache.png"
   }
@@ -79,11 +76,8 @@ function compar(id,animal) {
       mesid[1] = id
       myanimal[1] = animal
     }
-    else {
-      console.log("ne rien faire ")
-    }
+    else {}
     if (mesid[0] && mesid[1] && myanimal[0] && myanimal[1]) {
-      console.log(mesid, myanimal)
       swapimage()
     }
   }
@@ -130,7 +124,6 @@ function swapimage() {
         document.querySelector("#score").innerHTML = score
       }
     },1000);
-    console.log("mon score:",score)
     mesid = []
     myanimal = []
   }
@@ -140,7 +133,6 @@ function openimage(card,ani) {
   card.classList.replace("off","on")
   card.src=ani
   card.style=null
-  console.log(card)
 }
 
 function win(card) {
