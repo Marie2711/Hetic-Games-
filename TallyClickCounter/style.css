@@ -134,6 +134,14 @@ article>p {
     left: 20px;
 }
 
+
+#cloud {
+    position: relative;
+    left: 230px;
+    z-index: -1;
+    top: 100px;
+}
+
 /* grass with flower */
 #Footer {
     position: absolute;
